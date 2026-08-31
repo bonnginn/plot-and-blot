@@ -10,9 +10,8 @@ Life-science software for clear, traceable research outputs.
 
 ## English
 
-Plot & Blot is the umbrella name for two independent, local-first research applications created
-and maintained by Hironori Inaba. Each product has its own repository, documentation, release
-cycle, and issue tracker.
+Plot & Blot is the umbrella name for two independent, local-first research applications. Each
+product has its own repository, documentation, release cycle, and issue tracker.
 
 ### BioFigureStat
 
@@ -57,9 +56,8 @@ issues remain in the [BioFigureStat](https://github.com/bonnginn/biofigurestat) 
 
 ## 日本語
 
-Plot & Blotは、Hironori Inabaが開発・保守する、2つの独立したローカルファースト研究用
-アプリケーションの上位名称です。各製品は、それぞれ別のリポジトリ、ドキュメント、
-リリース周期、不具合管理先を持ちます。
+Plot & Blotは、2つの独立したローカルファースト研究用アプリケーションの上位名称です。
+各製品は、それぞれ別のリポジトリ、ドキュメント、リリース周期、不具合管理先を持ちます。
 
 ### BioFigureStat
 
