@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Plot & Blot — BioFigureStat and BlotCanvas, local-first research software for life-science workflows."
+    />
+    <meta name="theme-color" content="#f6f4ee" />
+    <meta property="og:title" content="Plot & Blot" />
+    <meta
+      property="og:description"
+      content="Life-science software for clear, traceable research outputs."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/plot-and-blot-mark.png" />
+    <title>Plot &amp; Blot — Life-science research software</title>
+    <link rel="icon" href="assets/plot-and-blot-mark.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Plot & Blot home">
+        <img src="assets/plot-and-blot-mark.png" alt="" width="54" height="54" />
+        <span>Plot &amp; Blot</span>
+      </a>
+      <nav aria-label="Language">
+        <a href="#japanese">日本語</a>
+        <a href="#english" lang="en">English</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Life-science research software</p>
+          <h1 id="hero-title">Clear figures.<br />Traceable analysis.</h1>
+          <p class="lead">
+            Plot &amp; Blotは、生命科学研究のための2つの独立した
+            ローカルファースト・アプリケーションをまとめる名称です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#products">製品を見る</a>
+            <a class="button secondary" href="https://github.com/bonnginn/plot-and-blot">GitHub</a>
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <img src="assets/plot-and-blot-mark.png" alt="" />
+        </div>
+      </section>
+
+      <section id="products" class="product-grid" aria-label="Products">
+        <article class="product-card biofigurestat">
+          <div class="card-topline">
+            <span class="status">Public Alpha</span>
+            <span class="platform">Windows / macOS</span>
+          </div>
+          <p class="product-number">01</p>
+          <h2>BioFigureStat</h2>
+          <p class="product-tagline">実験構造から始める、生命科学向け統計・グラフ作成アプリ。</p>
+          <p>
+            biological <i>n</i>、対応、階層、反復測定の同一性と解析の由来を明示しながら、
+            データ入力、ローカル統計解析、研究用グラフ作成を行います。
+          </p>
+          <div class="card-actions">
+            <a class="button primary" href="https://github.com/bonnginn/biofigurestat/releases/tag/v0.1.0-alpha.1">Alpha版をダウンロード</a>
+            <a class="text-link" href="https://github.com/bonnginn/biofigurestat">詳細・ドキュメント <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="product-card blotcanvas">
+          <div class="card-topline">
+            <span class="status">Public Beta</span>
+            <span class="platform">Browser</span>
+          </div>
+          <p class="product-number">02</p>
+          <h2>BlotCanvas</h2>
+          <p class="product-tagline">Western blotの記録・Figure作成・初期定量をブラウザで。</p>
+          <p>
+            元画像の記録を保持しながら、論文・学会発表用Figureを作成します。
+            画像は利用者のブラウザ内で処理され、アプリケーションサーバーへ送信されません。
+          </p>
+          <div class="card-actions">
+            <a class="button primary" href="https://bonnginn.github.io/blotcanvas/">BlotCanvasを開く</a>
+            <a class="text-link" href="https://bonnginn.github.io/blotcanvas/manual.html">使い方 <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="https://github.com/bonnginn/blotcanvas">GitHub <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </section>
+
+      <section id="japanese" class="principles" aria-labelledby="principles-title">
+        <div>
+          <p class="eyebrow">Shared approach</p>
+          <h2 id="principles-title">共通する方針</h2>
+        </div>
+        <ul>
+          <li><strong>Local-first</strong><span>研究データをローカル中心に取り扱います。</span></li>
+          <li><strong>Traceable</strong><span>元データ、変換、解析の境界を明示します。</span></li>
+          <li><strong>Safe stops</strong><span>未対応の処理を近い方法へ黙って置き換えません。</span></li>
+          <li><strong>Open source</strong><span>MIT Licenseで公開しています。</span></li>
+        </ul>
+      </section>
+
+      <section id="english" class="english" lang="en" aria-labelledby="english-title">
+        <p class="eyebrow">English</p>
+        <h2 id="english-title">Two tools. One shared approach.</h2>
+        <p>
+          Plot &amp; Blot brings together two independent, local-first applications for life-science
+          research. BioFigureStat supports experiment-aware statistical analysis and graphing.
+          BlotCanvas supports traceable Western blot figure preparation and preliminary
+          quantification in the browser.
+        </p>
+        <p>
+          Each product has its own repository, documentation, release cycle, and issue tracker.
+          Researcher review remains necessary before using outputs in publications or decisions.
+        </p>
+        <div class="english-links">
+          <a class="text-link" href="https://github.com/bonnginn/biofigurestat">BioFigureStat documentation <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="https://github.com/bonnginn/blotcanvas">BlotCanvas documentation <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>Plot &amp; Blot</strong>
+        <p>Life-science software for clear, traceable research outputs.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/bonnginn/plot-and-blot">GitHub</a>
+        <a href="mailto:plotandblot.apps@gmail.com">Contact</a>
+        <a href="LICENSE">MIT License</a>
+      </div>
+    </footer>
+  </body>
+</html>
