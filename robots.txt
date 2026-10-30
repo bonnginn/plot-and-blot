@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bonnginn.github.io/plot-and-blot/sitemap.xml

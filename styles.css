@@ -425,3 +425,9 @@ footer p {
     transition: none;
   }
 }
+
+/* Keep the existing palette and layout; make the Japanese purpose readable. */
+.hero h1 { font-family: inherit; font-size: clamp(2.2rem, 4.5vw, 3.6rem); line-height: 1.35; letter-spacing: -.04em; overflow-wrap: anywhere; }
+.product-screen { margin: 12px 0 18px; }
+.product-screen img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; }
+.product-screen figcaption, .release-note { font-size: .82rem; color: var(--muted); }

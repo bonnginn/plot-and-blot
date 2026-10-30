@@ -8,6 +8,8 @@ Life-science software for clear, traceable research outputs.
 
 [English](#english) | [日本語](#日本語)
 
+[Public website / 紹介ページ](https://bonnginn.github.io/plot-and-blot/)
+
 ## English
 
 Plot & Blot is the umbrella name for two independent, local-first research applications. Each
@@ -23,7 +25,7 @@ analysis provenance, and Graph state explicit.
 - Status: Public Alpha
 - Platforms: Windows 11 x64 and Apple Silicon macOS
 - [Repository and documentation](https://github.com/bonnginn/biofigurestat)
-- [Download the Public Alpha](https://github.com/bonnginn/biofigurestat/releases/tag/v0.1.0-alpha.1)
+- [Download the Public Alpha](https://github.com/bonnginn/biofigurestat/releases/tag/v0.1.1-alpha.1)
 
 ### BlotCanvas
 
@@ -68,7 +70,7 @@ biological `n`、対応、階層、反復測定における同一性、解析の
 - 公開状況：Public Alpha
 - 対応環境：Windows 11 x64、Apple Silicon macOS
 - [リポジトリとドキュメント](https://github.com/bonnginn/biofigurestat)
-- [Public Alphaをダウンロード](https://github.com/bonnginn/biofigurestat/releases/tag/v0.1.0-alpha.1)
+- [Public Alphaをダウンロード](https://github.com/bonnginn/biofigurestat/releases/tag/v0.1.1-alpha.1)
 
 ### BlotCanvas
 
