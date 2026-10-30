@@ -1,3 +1,5 @@
+[紹介ページ（日本語）](https://bonnginn.github.io/plot-and-blot/) | [Full English introduction](https://bonnginn.github.io/plot-and-blot/en.html)
+
 <p align="center">
   <img src="assets/plot-and-blot-mark.png" alt="Plot & Blot logo" width="180">
 </p>
